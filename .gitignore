@@ -1,0 +1,147 @@
+# ====================
+# Flutter / Dart
+# ====================
+frontend/.dart_tool/
+frontend/.packages
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.pub/
+frontend/.pub-cache/
+frontend/pubspec.lock
+frontend/coverage/
+frontend/.env
+frontend/.env.local
+frontend/*.iml
+frontend/.idea/
+frontend/.vscode/
+frontend/.metadata
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/local.properties
+frontend/android/key.properties
+frontend/android/app/google-services.json
+frontend/android/app/*.jks
+frontend/android/app/*.keystore
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/Flutter/Flutter.podspec
+frontend/ios/Runner/GoogleService-Info.plist
+frontend/ios/Runner.xcworkspace/xcuserdata/
+frontend/ios/build/
+
+# ====================
+# Node.js (Backend)
+# ====================
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.production
+backend/dist/
+backend/build/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ====================
+# React Admin Dashboard
+# ====================
+admin-dashboard/node_modules/
+admin-dashboard/build/
+admin-dashboard/.env
+admin-dashboard/.env.local
+admin-dashboard/.env.development.local
+admin-dashboard/.env.test.local
+admin-dashboard/.env.production.local
+admin-dashboard/npm-debug.log*
+admin-dashboard/yarn-debug.log*
+admin-dashboard/yarn-error.log*
+
+# ====================
+# Docker
+# ====================
+docker-compose.override.yml
+
+# ====================
+# IDE / Editor
+# ====================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/modules.xml
+.idea/compiler.xml
+.idea/jarRepositories.xml
+*.sublime-project
+*.sublime-workspace
+
+# ====================
+# OS Files
+# ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ====================
+# Logs
+# ====================
+*.log
+logs/
+*.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ====================
+# Environment
+# ====================
+.env
+.env.*
+!.env.example
+!.env.template
+
+# ====================
+# Testing
+# ====================
+coverage/
+.nyc_output/
+*.lcov
+test-results/
+
+# ====================
+# Misc
+# ====================
+*.tgz
+*.gz
+*.zip
+*.rar
+.DS_Store
+.pnp
+.pnp.js
+yarn-error.log
+.eslintcache
+
+# ====================
+# Firebase
+# ====================
+frontend/android/app/google-services.json
+frontend/ios/Runner/GoogleService-Info.plist
+frontend/lib/firebase_options.dart
+backend/*-firebase-adminsdk-*.json
